@@ -1,0 +1,28 @@
+- Infrastructure:
+    - Homepage:
+        href: http://192.168.8.157:3000
+        icon: homepage.png
+        server: my-docker
+        container: homepage
+
+    - Portainer:
+        href: http://192.168.8.157:9000
+        icon: portainer.png
+        server: my-docker
+        container: portainer
+
+    - Pi-hole:
+        href: http://192.168.8.157/admin
+        icon: pi-hole.png
+
+    - Router:
+        href: http://192.168.8.1
+        icon: mdi-router
+
+    - Uptime Kuma:
+        href: http://192.168.8.157:3001
+        icon: uptime-kuma.png
+        widget:
+          type: uptimekuma
+          url: http://192.168.8.157:3001
+          slug: homelab
