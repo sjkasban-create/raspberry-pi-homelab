@@ -1,0 +1,46 @@
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Credentials
+*.key
+*.pem
+*.crt
+credentials*
+secrets*
+
+# Tailscale / VPN secrets
+*tailscale*key*
+*authkey*
+
+# Slack webhooks and tokens
+*webhook*
+*token*
+
+# Pi-hole runtime data
+pihole-data/
+dnsmasq-data/
+
+# Uptime Kuma database
+kuma.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Backups
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
